@@ -8,7 +8,7 @@
 #define LED_GREEN  13  // LED verde
 #define BUTTON     5   // Botão (pushbutton)
 
-// Variável para evitar múltiplas ativações enquanto os LEDs estão acesos
+// Variável para evitar múltiplas ativações enquanto os LEDs estão acesos.
 volatile bool leds_active = false;
 
 // Função para desligar o LED verde e permitir nova ativação pelo botão
